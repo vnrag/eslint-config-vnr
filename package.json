@@ -8,15 +8,20 @@
   },
   "keywords": [
     "eslint",
-    "eslintconfig"
+    "eslintconfig",
+    "javascript",
+    "styleguide"
   ],
-  "repository": "PSB-GIT:px/eslint-config-vnr.git",
+  "repository": {
+    "tape": "git",
+    "url": "http://PSB-GIT:px/eslint-config-vnr.git"
+  },
+  "homepage": "http://PSB-GIT:px/eslint-config-vnr.git",
   "license": "MIT",
   "peerDependencies": {
     "eslint": ">= 5"
   },
   "devDependencies": {
-    "eslint": "^5.5.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0"
   }
