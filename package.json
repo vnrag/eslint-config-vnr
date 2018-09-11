@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-vnr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --config index.js ."
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">= 5",
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
