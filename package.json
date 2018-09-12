@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "prepare": "",
-    "lint": "eslint --config index.js ."
+    "lint": "eslint ."
   },
   "keywords": [
     "eslint",
@@ -19,7 +18,8 @@
   "homepage": "http://PSB-GIT:px/eslint-config-vnr.git",
   "license": "MIT",
   "peerDependencies": {
-    "eslint": ">= 5"
+    "eslint": ">= 5",
+    "eslint-config-airbnb-base": ">= 13"
   },
   "devDependencies": {
     "eslint-config-airbnb-base": "^13.1.0",
