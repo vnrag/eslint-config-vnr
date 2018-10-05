@@ -1,5 +1,8 @@
 module.exports = {
-  extends: 'airbnb-base',
+  extends: [
+    'airbnb-base',
+    'plugin:react/recommended'
+  ],
   env: {
     browser: true
   },
@@ -42,6 +45,15 @@ module.exports = {
     'space-before-function-paren': 'off',
     'quote-props': 'error',
     'max-len': [2, 120, 4],
-    'prefer-spread': 'off'
+    'prefer-spread': 'off',
+    'import/no-unresolved': 'off',
+    'no-underscore-dangle': 'off',
+    'no-use-before-define': [
+      'error',
+      {
+        functions: false,
+        classes: false
+      }
+    ]
   }
 };

@@ -9,7 +9,7 @@ Make sure you have SSH access to the Gitlab instance.
 Install the dependencies using
 
 ````
-npm install --save-dev eslint git+ssh://git@PSB-GIT:px/eslint-config-vnr.git eslint-config-airbnb-base
+npm install --save-dev eslint git+ssh://git@PSB-GIT:px/eslint-config-vnr.git eslint-config-airbnb-base eslint-plugin-react
 ````
 
 Add `"extends": "vnr"` to your .eslintrc
