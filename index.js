@@ -1,7 +1,6 @@
 module.exports = {
   extends: [
-    'airbnb-base',
-    'plugin:react/recommended'
+    'airbnb'
   ],
   env: {
     browser: true
@@ -58,7 +57,7 @@ module.exports = {
     'no-unused-vars': [
       'error',
       {
-        'argsIgnorePattern': '^(event|e)$'
+        argsIgnorePattern: '^(event|e)$'
       }
     ]
   }
