@@ -54,6 +54,12 @@ module.exports = {
         functions: false,
         classes: false
       }
+    ],
+    'no-unused-vars': [
+      'error',
+      {
+        'argsIgnorePattern': '^(event|e)$'
+      }
     ]
   }
 };
