@@ -55,10 +55,12 @@ module.exports = {
       }
     ],
     'no-unused-vars': [
-      'error',
+      'warn',
       {
-        argsIgnorePattern: '^(event|e)$'
+        argsIgnorePattern: '^(event|e|props)$'
       }
-    ]
+    ],
+    'react/no-unused-prop-types': 'warn',
+    'react/no-unused-state': 'warn'
   }
 };
