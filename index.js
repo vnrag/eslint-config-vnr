@@ -61,6 +61,12 @@ module.exports = {
                 argsIgnorePattern: '^(event|e|props)$'
             }
         ],
+        'no-plusplus': [
+            'error',
+            {
+                allowForLoopAfterthoughts: true
+            }
+        ],
         'react/no-unused-prop-types': 'warn',
         'react/no-unused-state': 'warn'
     }
