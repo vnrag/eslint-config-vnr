@@ -1,3 +1,5 @@
+const indentation = 4;
+
 module.exports = {
     extends: [
         'airbnb'
@@ -32,7 +34,15 @@ module.exports = {
     rules: {
         'comma-dangle': ['error', 'never'],
         'func-names': ['error', 'never'],
-        'no-console': 'warn',
+        'no-console': [
+            'error',
+            {
+                allow: [
+                    'warn',
+                    'error'
+                ]
+            }
+        ],
         eqeqeq: 'warn',
         'no-var': 'off',
         'object-shorthand': 'off',
@@ -43,10 +53,9 @@ module.exports = {
         'prefer-destructuring': 'off',
         'space-before-function-paren': 'off',
         'quote-props': 'error',
-        indent: ['warn', 4],
+        indent: ['error', indentation],
         'max-len': 'off',
         'prefer-spread': 'off',
-        'import/no-unresolved': 'off',
         'no-underscore-dangle': 'off',
         'no-use-before-define': [
             'error',
@@ -67,6 +76,11 @@ module.exports = {
                 allowForLoopAfterthoughts: true
             }
         ],
+        'import/no-unresolved': 'off',
+        'import/no-extraneous-dependencies': 'off',
+        'react/jsx-indent': ['error', indentation],
+        'react/jsx-indent-props': ['error', indentation],
+        'react/sort-comp': 'off',
         'react/no-unused-prop-types': 'warn',
         'react/no-unused-state': 'warn'
     }
