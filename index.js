@@ -82,6 +82,7 @@ module.exports = {
         'react/jsx-indent-props': ['error', indentation],
         'react/sort-comp': 'off',
         'react/no-unused-prop-types': 'warn',
-        'react/no-unused-state': 'warn'
+        'react/no-unused-state': 'warn',
+        'react/prop-types': 'off'
     }
 };
