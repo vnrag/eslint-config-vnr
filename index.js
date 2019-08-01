@@ -83,6 +83,7 @@ module.exports = {
         'react/sort-comp': 'off',
         'react/no-unused-prop-types': 'warn',
         'react/no-unused-state': 'warn',
-        'react/prop-types': 'off'
+        'react/prop-types': 'off',
+        'react/destructuring-assignment': ['warn', 'always']
     }
 };
