@@ -1,8 +1,9 @@
-const indentation = 4;
+const INDENTATION = 4;
 
 module.exports = {
     extends: [
-        'airbnb'
+        'airbnb',
+        'airbnb/hooks'
     ],
     env: {
         browser: true
@@ -53,7 +54,7 @@ module.exports = {
         'prefer-destructuring': 'off',
         'space-before-function-paren': 'off',
         'quote-props': 'error',
-        indent: ['error', indentation],
+        indent: ['error', INDENTATION],
         'max-len': 'off',
         'prefer-spread': 'off',
         'no-underscore-dangle': 'off',
@@ -78,12 +79,13 @@ module.exports = {
         ],
         'import/no-unresolved': 'off',
         'import/no-extraneous-dependencies': 'off',
-        'react/jsx-indent': ['error', indentation],
-        'react/jsx-indent-props': ['error', indentation],
+        'react/jsx-indent': ['error', INDENTATION],
+        'react/jsx-indent-props': ['error', INDENTATION],
         'react/sort-comp': 'off',
         'react/no-unused-prop-types': 'warn',
         'react/no-unused-state': 'warn',
         'react/prop-types': 'off',
-        'react/destructuring-assignment': ['warn', 'always']
+        'react/destructuring-assignment': ['warn', 'always'],
+        'react/jsx-props-no-spreading': 'off'
     }
 };
