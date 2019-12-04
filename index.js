@@ -77,6 +77,7 @@ module.exports = {
                 allowForLoopAfterthoughts: true
             }
         ],
+        'no-restricted-syntax': ['error', 'ForInStatement', 'LabeledStatement', 'WithStatement'],
         'import/no-unresolved': 'off',
         'import/no-extraneous-dependencies': 'off',
         'react/jsx-indent': ['error', INDENTATION],
