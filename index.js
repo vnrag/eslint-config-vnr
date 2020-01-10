@@ -81,7 +81,7 @@ module.exports = {
         'import/no-unresolved': 'off',
         'import/no-extraneous-dependencies': 'off',
         'import/extensions': [
-            'warning',
+            'warn',
             'never',
             {
                 css: 'always',
