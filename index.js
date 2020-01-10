@@ -80,6 +80,14 @@ module.exports = {
         'no-restricted-syntax': ['error', 'ForInStatement', 'LabeledStatement', 'WithStatement'],
         'import/no-unresolved': 'off',
         'import/no-extraneous-dependencies': 'off',
+        'import/extensions': [
+            'warning',
+            'never',
+            {
+                css: 'always',
+                scss: 'always'
+            }
+        ],
         'react/jsx-indent': ['error', INDENTATION],
         'react/jsx-indent-props': ['error', INDENTATION],
         'react/sort-comp': 'off',
