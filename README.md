@@ -12,4 +12,9 @@ Install the dependencies using
 npm install --save-dev eslint github:vnrag/eslint-config-vnr
 ```
 
-Add `"extends": "vnr"` to your .eslintrc
+Create `.eslintrc` in your project:
+```
+{
+    "extends": "vnr"
+}
+```
